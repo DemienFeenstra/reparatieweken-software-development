@@ -1,22 +1,25 @@
 body{
 	background-color:lightblue;
 	padding:16px;
-	font-size:16px;
 }
+
 img{
 	float:left;
 	border:2px solid black;
 }
+
 #img1{
 	margin-right:16px;
 	margin-bottom:16px;
 }
+
 #img2{
 	float:right;
 	margin-left:16px;
 	margin-top:16px;
 	margin-bottom:16px;
 }
+
 #img3{
 	margin-right:16px;
 	margin-top:16px;
