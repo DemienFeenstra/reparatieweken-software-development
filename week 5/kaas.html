@@ -1,0 +1,70 @@
+<html>
+	<body> 
+		<script>
+			var kaas = prompt("is de kaas geel?");
+			kaas = kaas.toLowerCase();
+
+		if(kaas == "ja"){
+
+			var gaten = prompt("zitten er gaten in?");
+			gaten = gaten.toLowerCase();
+
+			if(gaten == "ja"){
+
+				var duur = prompt("is de kaas belachelijk duur?");
+				duur = duur.toLowerCase();
+
+				if(duur == "ja"){
+					alert("Emmenthaler");
+				}
+				else if(duur == "nee"){
+					alert("Leerdammer");
+				}
+
+
+			}
+			else{
+
+				var hard = prompt("is de kaas hard als steen?");
+				hard = hard.toLowerCase();
+
+				if(hard == "ja"){
+					alert("Pamnigiano Reggiano");
+				}
+				else if(hard == "nee"){
+				alert("Goudse kaas");
+				}
+			}
+
+		}
+		else{
+
+			var schimmels = prompt("heeft de kaas blauwe schimmels?");
+			schimmels = schimmels.toLowerCase();
+
+			if(schimmels == "ja"){
+			var korst = prompt("heeft de kaas een korst?");
+			korst = korst.toLowerCase();
+
+			if(korst == "ja"){
+				alert("Bleu de Rochbaron");
+			}
+			else if(korst == "nee"){
+				alert("Foumne D'Ambert ");
+			}
+			}
+			else if(schimmels == "nee"){
+				var korst2 = prompt("heeft de kaas een korst?");
+				korst2 = korst2.toLowerCase();
+
+				if(korst2 == "ja"){
+					alert("Camembert");
+				}
+				else if(korst2 == "nee"){
+					alert("Mozzarella");
+				}
+			}
+		}
+		</script>
+	</body>
+</html>
