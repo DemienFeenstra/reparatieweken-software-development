@@ -3,4 +3,4 @@ function helloWorld(num) {
         document.write((i + 1) + ". Hello World!<br>");
     };
 };
-helloWorld(7);
+helloWorld(7); 
