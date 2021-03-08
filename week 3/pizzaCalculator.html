@@ -3,7 +3,63 @@
 <head>
 	<title> pizza calculator </title>
 </head>
-<body>
+	<body>
+		<script>
+			         const SMALLPIZZA = prompt("hoeveel small pizza's wilt u? een small pizza kost 7 euro"); //voer het aantal Smallpizza's in dat u wilt bestellen
 
-</body>
+if(SMALLPIZZA && SMALLPIZZA.match(/^\d+$/)){ //kijkt of het een geldig aantal is voor de Smallpizza's
+
+ 	if(SMALLPIZZA < 100){ //je kunt het aantal pizza's bestellen onder de 100 
+
+			         const MEDIUMPIZZA = prompt("hoeveel medium pizza's wilt u? een medium pizza kost 10 euro"); //voer het aantal Mediumpizza's in dat u wilt bestellen
+
+		if(MEDIUMPIZZA && MEDIUMPIZZA.match(/^\d+$/)){ // kijkt of het een geldig aantal is voor de Mediumpizza's 
+
+ 			if(MEDIUMPIZZA < 100){ //je kunt het aantal pizza's bestellen onder de 100
+
+			         const LARGEPIZZA = prompt("hoeveel large pizza's wilt u? een large pizza kost 12 euro"); //voer het aantal Largepizza's in dat u wilt bestellen 
+
+        		if(LARGEPIZZA && LARGEPIZZA.match(/^\d+$/)){ //kijkt of het een geldig aantal is voor de Largepizza's
+
+ 					if(LARGEPIZZA < 100){ //je kunt het aantal pizza's bestellen onder de 100
+	
+			         const SMALLPRIZE  = 7 
+			         var Smallpizzatotal  = parseInt(SMALLPRIZE * SMALLPIZZA);   //berekent de totaalprijs van de Smallpizza's
+
+			         const MEDIUMPRIZE = 10 
+			         var Mediumpizzatotal = parseInt(MEDIUMPRIZE * MEDIUMPIZZA); //berekent de totaalprijs van de Mediumpizza's
+
+			         const LARGEPRIZE  = 12 
+			         var Largepizzatotal  = parseInt(LARGEPRIZE * LARGEPIZZA);   //berekent de totaalprijs van de Largepizza's 
+
+			         document.write(SMALLPIZZA + " " + "Smallpizza's" + " " + Smallpizzatotal + " " + "euro" + "<br>" + MEDIUMPIZZA + " " + "Mediumpizza's" + " " + Mediumpizzatotal + " " + "euro" + "<br>" + LARGEPIZZA + " " + "Largepizza's" + " " + Largepizzatotal + " " + "euro"); //schrijft het aantal pizza's dat er besteld is op en de prijs daarvan voor elke pizza grootte.
+
+			         var Totalprize = parseInt(Smallpizzatotal + Mediumpizzatotal + Largepizzatotal);
+			         document.write("<br><br>" + "Totalprize" + " " + Totalprize + " " + "euro"); //berekent de totaalprijs van alle pizza's bij elkaar
+
+					} else {
+							alert("you can only order up to 99 Largepizza's, please refresh the page to try again!"); //je kunt maximaal 99 Largepizza's bestellen
+						};
+
+				} else{
+						alert('invalid number, please refresh the page to try again!'); //ongeldig aantal ingevoerd 3
+					};
+
+			} else{
+					alert("you can only order up to 99 Mediumpizza's, please refresh the page to try again!"); //je kunt maximaal 99 Mediumpizza's bestellen
+				};	
+
+		} else{
+				alert('invalid number, please refresh the page to try again!'); //ongeldig aantal ingevoerd 2
+			};
+
+	} else{
+			alert("you can only order up to 99 Smallpizza's, please refresh the page to try again!"); //je kunt maximaal 99 Smallpizza's bestellen 
+		};	
+
+} else{
+		alert('invalid number, please refresh the page to try again!'); //ongeldig aantal ingevoerd 1
+	};
+		</script>
+	</body>
 </html>
