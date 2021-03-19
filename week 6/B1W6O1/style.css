@@ -1,0 +1,31 @@
+body{
+	background-color: white;
+	font-size:20px;
+	line-height:26px;
+	margin: 0px auto;
+	width: 50%;
+}
+h1{
+	font-size:36px;
+	line-height:36px;
+}
+#ingrediënten{
+	font-size:24px;
+	line-height:32px;
+	margin-bottom: 40px;
+}
+h2{
+	font-size:32px;
+	line-height:32px;
+}
+ul li{
+	margin-bottom:10px;
+}
+ol li{
+	margin-bottom:20px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+
