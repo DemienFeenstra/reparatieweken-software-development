@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.grid{
+	margin-left: 260px;
+	width: 755px;
+	height: 650px;
+	border:5px dotted black;
+	grid-gap: 5px;
+	display: grid;
+	grid-template-rows: 150px 50px 70px 20px 100px 100px 20px 50px 50px; /*7*/ /*590px*/
+	grid-template-columns:100px 100px 70px 70px 70px 70px 70px 70px 100px; /*9*/ /*920px*/
+}
+.zoekbalk{
+	background-color: blue;
+	grid-row-start: 1;               /*  boven naar beneden*/ 
+	grid-row-end: 2;
+	grid-column-start: 2;              /*links naar rechts*/
+	grid-column-end: 9;
+}
+.suggesties{
+	background-color: red;
+	grid-row-start: 2;
+	grid-row-end: 10;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.meestPopulair{
+	background-color: whitesmoke;
+	grid-row-start: 2;
+	grid-row-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 9;
+}
+.koelkasten{
+	background-color: yellow;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.vriezers{
+	background-color: orange;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+.vaatwassers{
+	background-color: lightblue;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 5;
+	grid-column-end: 6;
+}
+.koffie{
+	background-color: purple;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 6;
+	grid-column-end: 7;
+}
+.magnetrons{
+	background-color: red;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 7;
+	grid-column-end: 8;
+}
+.keukenmachines{
+	background-color: pink;
+	grid-row-start: 3;
+	grid-row-end: 6;
+	grid-column-start: 8;
+	grid-column-end: 9;
+}
+.keuken{
+	background-color: whitesmoke;
+	grid-row-start: 4;
+	grid-row-end: 7;
+	grid-column-start: 3;
+	grid-column-end: 9;
+}
+.keuken-apperatuur{
+	background-color: lightgreen;
+	grid-row-start: 5;
+	grid-row-end: 8;
+	grid-column-start: 3;
+	grid-column-end: 7;
+}
+.koffietegoed{
+	background-color: green;
+	grid-row-start: 5;
+	grid-row-end: 7;
+	grid-column-start: 7;
+	grid-column-end: 9;
+}
+.servicePakket{
+	background-color: yellow;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	grid-column-start: 7;
+	grid-column-end: 9;
+}
+.ninjaKeukenapperatuur{
+	background-color: whitesmoke;
+	grid-row-start: 7;
+	grid-row-end: 8;
+	grid-column-start: 3;
+	grid-column-end: 9;
+}
+.tefal{
+	background-color: lightblue;
+	grid-row-start: 8;
+	grid-row-end: 9;
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+.opGeselecteerdeProducten{
+	background-color: purple;
+	grid-row-start: 8;
+	grid-row-end: 9;
+	grid-column-start: 6;
+	grid-column-end: 9;
+}
+.koelkastenVoorJouGeselecteerd{
+	background-color: whitesmoke;
+	grid-row-start: 9;
+	grid-row-end: 10;
+	grid-column-start: 3;
+	grid-column-end: 9;
+}
