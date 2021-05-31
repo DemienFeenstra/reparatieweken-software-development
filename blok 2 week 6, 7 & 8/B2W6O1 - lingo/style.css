@@ -1,0 +1,41 @@
+.header{
+    margin: 5px;
+    display: inline-block;
+    width: 41px;
+    text-align: center;
+    border-radius: 25px;
+    background: blue;
+    color: red;
+}
+#game-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    border: solid black;
+    background-color: green;
+}
+#letters{
+    width: 300px;
+    position: relative;
+    left: 300px;
+    margin-left: -125px;
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+}
+.letter{
+    text-align: center;
+    background-color: lightblue;
+    width: 30px;
+    display: inline-block;
+    padding: 8px;
+}
+.goodColor{
+    background-color: red;
+}
+.almostColor{
+    background-color: yellow;
+    border-radius: 50%;
+}
+.wrongColor{
+    background-color: lightblue;
+}

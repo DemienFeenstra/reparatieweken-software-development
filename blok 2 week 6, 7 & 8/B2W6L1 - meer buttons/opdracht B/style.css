@@ -1,0 +1,18 @@
+body{
+	background-color: white;
+}
+
+#container{
+	margin: center;
+	background-color: gray;
+	width: 500px;
+	margin-left: 330px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+button{
+	width: 75px;
+	height: 60px;
+	margin: 10px;
+}

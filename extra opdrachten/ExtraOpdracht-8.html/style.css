@@ -9,14 +9,14 @@
 	border:5px dotted black;
 	grid-gap: 5px;
 	display: grid;
-	grid-template-rows: 150px 50px 70px 20px 100px 100px 20px 50px 50px; /*7*/ /*590px*/
-	grid-template-columns:100px 100px 70px 70px 70px 70px 70px 70px 100px; /*9*/ /*920px*/
+	grid-template-rows: 150px 50px 70px 20px 100px 100px 20px 50px 50px;
+	grid-template-columns:100px 100px 70px 70px 70px 70px 70px 70px 100px;
 }
 .zoekbalk{
 	background-color: blue;
-	grid-row-start: 1;               /*  boven naar beneden*/ 
-	grid-row-end: 2;
-	grid-column-start: 2;              /*links naar rechts*/
+	grid-row-start: 1;					/*row van boven naar beneden*/
+	grid-row-end: 2;					
+	grid-column-start: 2; 				/*column links naar rechts*/
 	grid-column-end: 9;
 }
 .suggesties{
@@ -92,7 +92,7 @@
 .koffietegoed{
 	background-color: green;
 	grid-row-start: 5;
-	grid-row-end: 7;
+	grid-row-end: 6;
 	grid-column-start: 7;
 	grid-column-end: 9;
 }
