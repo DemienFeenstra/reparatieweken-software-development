@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
-	<title> speelbord B </title>
+    <link rel="stylesheet" href="style.css">
+    <title> speelbord C </title>
 </head>
 <body>
 
-	    <div id="game-container">
+        <div id="game-container">
         <header>
             <h1 id="header1" class="header">L</h1>
             <h1 id="header2" class="header">I</h1>
@@ -15,15 +15,23 @@
             <h1 id="header5" class="header">O</h1>
         </header>
         <p>Word</p>
-        <input type="text" id="input" placeholder="Vul hier uw woord in" maxlength="5">
+        <input type="text" id="woord" placeholder="Vul hier uw woord in">
         <p>Check Letter</p>
-        <input type="text" id="input" placeholder="Vul hier uw woord in" maxlength="5">
-        
-        <button onclick="check()">Check</button>
-        <div id="letters">
-        </div>
+        <input type="text" id="letter" placeholder="Vul hier uw woord in">
+
+        <button id= "checkBtn" onclick="check()">Check</button>
     </div>
 
-	<script src="script.js"></script>
+      <div id="bottom">
+            <ul>
+                <li id="0">1</li>
+                <li id="1">2</li>
+                <li id="2">3</li>
+                <li id="3">4</li>
+                <li id="4">5</li>
+            </ul>
+        </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

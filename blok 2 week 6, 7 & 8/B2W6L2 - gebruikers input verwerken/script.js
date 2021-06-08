@@ -11,7 +11,7 @@ for(i = 0; i<vraag; i++){
 }
 
 for(i= 0; i<naam.length; i++){
-    document.getElementById('normaal').innerHTML += naam[i] + ' ';
+    document.getElementById('normaal').innerHTML += naam[i] + ' '; 
 }
 
 for(i= naam.length -1; i>=0; i--){

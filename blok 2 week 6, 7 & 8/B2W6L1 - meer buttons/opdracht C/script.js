@@ -18,4 +18,4 @@ function click(button,color){
     if(button.style.backgroundColor == "white"){
         button.remove();
     }
-}
+} 
